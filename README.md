@@ -1,24 +1,11 @@
-# README
+# Read me
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 1つの投稿に対して複数枚の画像を紐付け、同時に投稿する実装
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## 作成するアプリの要件
+# 商品モデルと商品の画像モデルを作成し、1つの投稿フォームで記事とそれに紐付く複数の画像を投稿できる
+# 画像は送信前にプレビューを表示できる
+# 上記要件を満たし、1度出品した商品の編集ができる
+# 編集画面から、ひもづく画像の変更、削除、追加ができる
+# 商品を削除する機能がある
+# 商品を削除する際は、削除した商品に紐づく画像が同時に削除される
