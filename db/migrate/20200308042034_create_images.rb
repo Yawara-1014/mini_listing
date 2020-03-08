@@ -1,7 +1,8 @@
 class CreateImages < ActiveRecord::Migration[5.2]
   def change
     create_table :images do |t|
-
+      t.string :src
+      t.references :product, foreign: true
       t.timestamps
     end
   end
